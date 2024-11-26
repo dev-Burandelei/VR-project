@@ -1,0 +1,10 @@
+# Unity cache files
+[Ll]ibrary/
+[Ll]ogs/
+[Tt]emp/
+[Oo]bj/
+[Bb]uild/
+
+# Git LFS-related artifacts
+*.dylib
+ArtifactDB
