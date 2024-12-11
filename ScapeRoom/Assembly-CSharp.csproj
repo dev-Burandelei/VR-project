@@ -62,11 +62,13 @@
     <Analyzer Include="C:\Users\Erik Gabriel\.vscode\extensions\visualstudiotoolsforunity.vstuc-1.0.5\Analyzers\Microsoft.Unity.Analyzers.dll" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\Scripts\FirstPersonCamera.cs" />
     <Compile Include="Assets\TutorialInfo\Scripts\Readme.cs" />
     <Compile Include="Assets\AminateHand.cs" />
-    <Compile Include="Assets\ActiveTeleportationRay.cs" />
     <Compile Include="Assets\Scripts\PlayerMoviment.cs" />
-    <Compile Include="Assets\Scripts\FirstPersonCamera.cs" />
+    <Compile Include="Assets\ActiveTeleportationRay.cs" />
+    <Compile Include="Assets\Scripts\PlayerPickUpDrop.cs" />
+    <Compile Include="Assets\Scripts\ObjectGrabbable.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
