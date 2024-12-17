@@ -4031,7 +4031,7 @@ Rigidbody:
   serializedVersion: 2
   m_Mass: 1
   m_Drag: 0
-  m_AngularDrag: 0.05
+  m_AngularDrag: 0
   m_UseGravity: 1
   m_IsKinematic: 0
   m_Interpolate: 0
@@ -4048,8 +4048,8 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 0.0063584745, y: 0.0355649, z: 0.04017068}
-  m_Center: {x: -0.00022952259, y: 0.000024586916, z: 0.00013609044}
+  m_Size: {x: 0.0053494573, y: 0.0355649, z: 0.033989098}
+  m_Center: {x: -0.0007340312, y: 0.000024586916, z: -0.002954701}
 --- !u!4 &1618727730 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4511655667520052993, guid: 087e2a9d318d8b842b11b221d1f79534,
@@ -4158,8 +4158,8 @@ MonoBehaviour:
   m_OnDeactivate:
     m_PersistentCalls:
       m_Calls: []
-  m_AttachTransform: {fileID: 0}
-  m_SecondaryAttachTransform: {fileID: 0}
+  m_AttachTransform: {fileID: 1844024036}
+  m_SecondaryAttachTransform: {fileID: 1901751495}
   m_UseDynamicAttach: 0
   m_MatchAttachPosition: 1
   m_MatchAttachRotation: 0
@@ -4225,6 +4225,33 @@ MonoBehaviour:
   bullet: {fileID: 4959863530504233072, guid: 11064658e32110d40849319ce73445c1, type: 3}
   spawnPoint: {fileID: 1801952228}
   fireSpeed: 20
+--- !u!114 &1618727733
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1618727726}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 81dead2568efe1c4ba816e61742ef4f7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  hapticOnActivated:
+    intensity: 0.5
+    duration: 0.3
+  hapticHoverEntered:
+    intensity: 0
+    duration: 0.1
+  hapticHoverExited:
+    intensity: 0
+    duration: 0.1
+  hapticSelectEntered:
+    intensity: 0.1
+    duration: 0.1
+  hapticSelectExited:
+    intensity: 0
+    duration: 0
 --- !u!1 &1795766280
 GameObject:
   m_ObjectHideFlags: 0
@@ -4547,7 +4574,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1844024035}
   m_LocalRotation: {x: -0.19209862, y: 0.0049067666, z: -0.0020292266, w: 0.98136127}
-  m_LocalPosition: {x: 0.0073, y: 0.0074, z: -0.003}
+  m_LocalPosition: {x: 0.0073, y: 0.0074, z: -0.0029}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
