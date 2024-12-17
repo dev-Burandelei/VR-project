@@ -12,6 +12,9 @@ public class Door : MonoBehaviour
     void Start()
     {
         animator = GetComponent<Animator>();
+        animator.SetBool("close", true);
+        animator.SetBool("open", false);
+
     }
 
     // Update is called once per frame
