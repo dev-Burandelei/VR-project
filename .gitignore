@@ -8,3 +8,4 @@
 # Git LFS-related artifacts
 *.dylib
 ArtifactDB
+UserSettings\Layouts\default-2021.dwlt
