@@ -63,12 +63,17 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Scripts\FirstPersonCamera.cs" />
+    <Compile Include="Assets\Scripts\PlayerPickUpDrop.cs" />
+    <Compile Include="Assets\Scripts\ObjectGrabbable.cs" />
+    <Compile Include="Assets\Scripts\Door.cs" />
     <Compile Include="Assets\TutorialInfo\Scripts\Readme.cs" />
     <Compile Include="Assets\AminateHand.cs" />
     <Compile Include="Assets\Scripts\PlayerMoviment.cs" />
     <Compile Include="Assets\ActiveTeleportationRay.cs" />
-    <Compile Include="Assets\Scripts\PlayerPickUpDrop.cs" />
-    <Compile Include="Assets\Scripts\ObjectGrabbable.cs" />
+    <Compile Include="Assets\Scripts\ButtonInteract.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Assets\Tim&apos;s Assets\Doors\Shader\BloodyDoor.shader" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
