@@ -11,7 +11,7 @@
 *.dylib
 ArtifactDB
 UserSettings\Layouts\default-2021.dwlt
-ScapeRoom\Assets\SteamVR\
+ScapeRoom\\Assets\\SteamVR\
 ScapeRoom/Assets/SteamVR/
 
 # MemoryCaptures can get excessive in size.
