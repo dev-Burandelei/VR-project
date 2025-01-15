@@ -24,6 +24,7 @@ public class ButtonInteract : MonoBehaviour
     {
         if (transform.eulerAngles != Vector3.zero)
         {
+
             Vector3 savedAngle = transform.eulerAngles;
             transform.eulerAngles = Vector3.zero;
             upperLowerDiff = buttonUpperLimit.position.y - buttonLowerLimit.position.y;
